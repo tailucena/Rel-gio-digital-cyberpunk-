@@ -1,58 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-      <style>
-    body {
-      margin: 0;
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
-      font-family: 'Arial', sans-serif;
-    }
-
-    .relogio {
-      text-align: center;
-      padding: 30px 50px;
-      border-radius: 20px;
-      background: rgba(255, 255, 255, 0.15);
-      backdrop-filter: blur(12px);
-      border: 2px solid rgba(255, 255, 255, 0.3);
-      box-shadow: 
-        0 0 15px #00fff7,
-        0 0 30px #00fff7;
-      animation: neon 2s infinite alternate;
-    }
-
-    @keyframes neon {
-      from {
-        box-shadow: 0 0 10px #00fff7;
-      }
-      to {
-        box-shadow: 0 0 30px #00fff7, 0 0 60px #00fff7;
-      }
-    }
-
-    #hora {
-      font-size: 56px;
-      color: #ffffff;
-      text-shadow: 0 0 10px #00fff7;
-    }
-
-    #data {
-      font-size: 20px;
-      color: #ffffff;
-      margin-top: 8px;
-    }
-
-    #mensagem {
-      font-size: 24px;
-      margin-top: 12px;
-      color: #00fff7;
-    }
-  </style>
-  </style>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Relógio Neon</title>
@@ -66,8 +14,7 @@
       background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
       font-family: 'Arial', sans-serif;
     }
-
-    .relogio {
+      .relogio {
       text-align: center;
       padding: 30px 50px;
       border-radius: 20px;
@@ -79,7 +26,6 @@
         0 0 30px #00fff7;
       animation: neon 2s infinite alternate;
     }
-
     @keyframes neon {
       from {
         box-shadow: 0 0 10px #00fff7;
@@ -88,19 +34,16 @@
         box-shadow: 0 0 30px #00fff7, 0 0 60px #00fff7;
       }
     }
-
     #hora {
       font-size: 56px;
       color: #ffffff;
       text-shadow: 0 0 10px #00fff7;
     }
-
     #data {
       font-size: 20px;
       color: #ffffff;
       margin-top: 8px;
     }
-
     #mensagem {
       font-size: 24px;
       margin-top: 12px;
