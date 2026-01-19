@@ -1,2 +1,14 @@
-# Rel-gio-digital-cyberpunk-
-Relógio digital de estudo de HTML css e javascript 
+⏰ Relógio Digital Cyberpunk
+
+Projeto de estudo desenvolvido em HTML, CSS e JavaScript.
+
+🎨 Estilo
+- Visual cyberpunk
+- Neon
+- Animação de piscar
+
+🛠 Tecnologias
+- HTML5
+- CSS3
+- JavaScript
+
